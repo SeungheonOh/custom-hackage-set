@@ -1,0 +1,2 @@
+github = { repo = "input-output-hk/ouroboros-network", rev = "fa10cb4eef1e7d3e095cec3c2bb1210774b7e5fa" }
+subdir = "typed-protocols"
