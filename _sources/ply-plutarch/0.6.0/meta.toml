@@ -1,0 +1,3 @@
+timestamp = 2024-01-16T11:00:00Z
+github = { repo = "mlabs-haskell/ply", rev = "efeb0baddffccdbbf38d1e7e02cd1778422eeb78" }
+subdir = "ply-plutarch"
