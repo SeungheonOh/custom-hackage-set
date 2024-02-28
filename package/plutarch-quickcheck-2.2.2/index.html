@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>
+    plutarch-quickcheck-2.2.2
+  </title>
+  <style>
+    ul.build-depends {
+      list-style: none;
+    }
+
+    ul.build-depends li {
+      display: inline;
+    }
+
+    ul.build-depends li:not(:last-child):after {
+      content: ",";
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container px-4 py-5">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../all-packages/index.html">All packages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../all-package-versions/index.html">All package versions</a>
+      </li>
+    </ul>
+    <h1 class="py-5">
+      plutarch-quickcheck-2.2.2
+    </h1>
+    <dl class="row class=" px-4 py-5">
+      <dt class="col-sm-3">Synopsis</dt>
+      <dd class="col-sm-9">
+        <p>Quickcheck for Plutarch.</p>
+      </dd>
+      <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9">
+        <p>Bridge between QuickCheck and Plutarch. The interfaces provide
+easy ways to construct properties about Plutarch functions.</p>
+      </dd>
+      <dt class="col-sm-3">Author</dt>
+      <dd class="col-sm-9">
+        <p>Seungheon Oh</p>
+      </dd>
+      <dt class="col-sm-3">Maintainer</dt>
+      <dd class="col-sm-9">
+        <p>Seungheon Oh &lt;seungheon@mlabs.city&gt;</p>
+      </dd>
+      <dt class="col-sm-3">License</dt>
+      <dd class="col-sm-9">
+        <p>Apache-2.0</p>
+      </dd>
+      <dt class="col-sm-3">Source</dt>
+      <dd class="col-sm-9">
+        <dl class="row">
+          <dd>
+          <a href="https://github.com/liqwid-labs/liqwid-libs/tree/12fe62dfe7abbd01d20677fa1bb397a85e38839d/plutarch-quickcheck">https://github.com/liqwid-labs/liqwid-libs</a>
+          </dd>
+          <dt>Commit hash</dt>
+          <dd>12fe62dfe7abbd01d20677fa1bb397a85e38839d</dd>
+          <dt>Subdir</dt>
+          <dd>plutarch-quickcheck</dt>
+        </dl>
+      </dd>
+      <dt class="col-sm-3">Timestamp</dt>
+      <dd class="col-sm-9">
+        <p>2024-01-16T11:00:00Z</p>
+      </dd>
+      <dt class="col-sm-3">Revisions</dt>
+      <dd class="col-sm-9">
+        <p>None</p>
+      </dd>
+      <dt class="col-sm-3">Dependencies</dt>
+      <dd class="col-sm-9">
+        <dl>
+          <dt>library plutarch-quickcheck:</dt>
+          <dd>
+            <ul class="build-depends">
+            <li>[&quot;base ^&gt;=4.16&quot;,&quot;plutarch&quot;,&quot;bytestring&quot;,&quot;containers&quot;,&quot;data-default&quot;,&quot;generics-sop&quot;,&quot;mtl&quot;,&quot;plutarch-extra&quot;,&quot;plutus-core&quot;,&quot;plutus-ledger-api&quot;,&quot;plutus-tx&quot;,&quot;QuickCheck&quot;,&quot;tagged&quot;,&quot;tasty&quot;,&quot;tasty-expected-failure&quot;,&quot;tasty-quickcheck&quot;,&quot;text&quot;,&quot;universe&quot;]</li>
+            </ul>
+                      </dd>
+          <dt>test-suite reverse-test:</dt>
+          <dd>
+            <ul class="build-depends">
+<li>[&quot;base ^&gt;=4.16&quot;,&quot;plutarch&quot;,&quot;bytestring&quot;,&quot;generics-sop&quot;,&quot;plutarch-quickcheck&quot;,&quot;QuickCheck&quot;,&quot;tasty&quot;,&quot;tasty-expected-failure&quot;,&quot;tasty-quickcheck&quot;]</li>
+</ul>
+
+          </dd>
+          <dt>test-suite zip-test:</dt>
+          <dd>
+            <ul class="build-depends">
+<li>[&quot;base ^&gt;=4.16&quot;,&quot;plutarch&quot;,&quot;bytestring&quot;,&quot;generics-sop&quot;,&quot;plutarch-quickcheck&quot;,&quot;QuickCheck&quot;,&quot;tasty&quot;,&quot;tasty-expected-failure&quot;,&quot;tasty-quickcheck&quot;]</li>
+</ul>
+
+          </dd>
+          <dt>test-suite validator-test:</dt>
+          <dd>
+            <ul class="build-depends">
+<li>[&quot;base ^&gt;=4.16&quot;,&quot;plutarch&quot;,&quot;bytestring&quot;,&quot;generics-sop&quot;,&quot;plutarch-quickcheck&quot;,&quot;QuickCheck&quot;,&quot;tasty&quot;,&quot;tasty-expected-failure&quot;,&quot;tasty-quickcheck&quot;]</li>
+</ul>
+
+          </dd>
+          <dt>test-suite instances:</dt>
+          <dd>
+            <ul class="build-depends">
+<li>[&quot;base ^&gt;=4.16&quot;,&quot;plutarch&quot;,&quot;bytestring&quot;,&quot;generics-sop&quot;,&quot;plutarch-quickcheck&quot;,&quot;QuickCheck&quot;,&quot;tasty&quot;,&quot;tasty-expected-failure&quot;,&quot;tasty-quickcheck&quot;,&quot;plutus-ledger-api&quot;,&quot;plutus-tx&quot;,&quot;pretty-show&quot;]</li>
+</ul>
+
+          </dd>
+        </dl>
+      </dd>
+    </dl>
+  </div>
+</body>
+
+</html>
