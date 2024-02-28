@@ -108,7 +108,6 @@ library
     Plutarch.Internal.PrettyStack
     Plutarch.Internal.Quantification
     Plutarch.Internal.ScottEncoding
-    Plutarch.Internal.TermCont
     Plutarch.Internal.Trace
     Plutarch.Internal.TypeFamily
     Plutarch.Internal.Witness
